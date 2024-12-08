@@ -170,7 +170,7 @@ void *worker_thread(void *arg) {
         log_event(log_msg);
 
         if (strcmp(method, "GET") != 0 && strcmp(method, "HEAD") != 0) {
-            send_response(client_fd, 405, "Method Not Allowed", "text/html", "<h1>405 Method Not Allowed</h1>", 32);
+            send_response(client_fd, 405, "Method Not Allowed", "text/html", "<h1>405 Method Not Allowed</h1>", 31);
             continue;
         }
 
