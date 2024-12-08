@@ -55,3 +55,14 @@ dkms.conf
 *.zip
 .idea
 .DS_Store
+
+# Tex
+*.aux
+*.bbl
+*.log
+*.bcf
+*.blg
+*.xml
+*.gz
+*.toc
+*.zip

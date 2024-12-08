@@ -1,0 +1,108 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Страница — 1" id="Ez3LUMJoMPBPTy9Z5x9C">
+    <mxGraphModel dx="2565" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontFamily=Consolas;" edge="1" parent="1" source="MlmzNU3GaeWpQMPw5VUl-2" target="MlmzNU3GaeWpQMPw5VUl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-2" value="&lt;font&gt;Начало&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Consolas;" vertex="1" parent="1">
+          <mxGeometry x="70" y="28" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-3" value="&lt;font&gt;Конец&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Consolas;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1026" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-4" value="&lt;font&gt;Инициализация сокета&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=Consolas;" vertex="1" parent="1">
+          <mxGeometry x="70" y="108" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="MlmzNU3GaeWpQMPw5VUl-8" target="MlmzNU3GaeWpQMPw5VUl-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="311" y="381" />
+              <mxPoint x="311" y="904" />
+            </Array>
+            <mxPoint x="231" y="382.02000000000004" as="sourcePoint" />
+            <mxPoint x="200.9999999999999" y="721.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-6" value="&lt;font face=&quot;Consolas&quot;&gt;Да&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="MlmzNU3GaeWpQMPw5VUl-5">
+          <mxGeometry x="-0.9656" y="1" relative="1" as="geometry">
+            <mxPoint x="32" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="MlmzNU3GaeWpQMPw5VUl-8" target="MlmzNU3GaeWpQMPw5VUl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-8" value="&lt;font&gt;Получен сигнал&lt;/font&gt;&lt;div&gt;&lt;font&gt;завершения?&lt;/font&gt;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Consolas;" vertex="1" parent="1">
+          <mxGeometry x="70" y="346" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Consolas;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="MlmzNU3GaeWpQMPw5VUl-10" target="MlmzNU3GaeWpQMPw5VUl-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-10" value="pselect()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Consolas;" vertex="1" parent="1">
+          <mxGeometry x="70" y="443" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="MlmzNU3GaeWpQMPw5VUl-12" target="MlmzNU3GaeWpQMPw5VUl-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-12" value="Получение запроса от клиента" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=Consolas;" vertex="1" parent="1">
+          <mxGeometry x="70" y="516" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="MlmzNU3GaeWpQMPw5VUl-14" target="MlmzNU3GaeWpQMPw5VUl-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-14" value="Обработка запроса от клиента" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Consolas;" vertex="1" parent="1">
+          <mxGeometry x="70" y="657" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-15" value="&lt;font&gt;Закрытие серверного сокета&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=Consolas;" vertex="1" parent="1">
+          <mxGeometry x="70" y="957" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Consolas;endArrow=none;endFill=0;" edge="1" parent="1" source="MlmzNU3GaeWpQMPw5VUl-15" target="MlmzNU3GaeWpQMPw5VUl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Consolas;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="MlmzNU3GaeWpQMPw5VUl-4" target="MlmzNU3GaeWpQMPw5VUl-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="176" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-18" value="Открытие файла логирования" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=Consolas;" vertex="1" parent="1">
+          <mxGeometry x="70" y="187" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="MlmzNU3GaeWpQMPw5VUl-21" target="MlmzNU3GaeWpQMPw5VUl-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="MlmzNU3GaeWpQMPw5VUl-21" target="MlmzNU3GaeWpQMPw5VUl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-21" value="Бесконечная обработка поступающих запросов" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;rounded=0;strokeColor=default;align=center;verticalAlign=middle;arcSize=14;fontFamily=Consolas;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="70" y="264" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="MlmzNU3GaeWpQMPw5VUl-23" target="MlmzNU3GaeWpQMPw5VUl-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-23" value="Добавление клиента в очередь обработки" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=Consolas;" vertex="1" parent="1">
+          <mxGeometry x="70" y="585" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="MlmzNU3GaeWpQMPw5VUl-25" target="MlmzNU3GaeWpQMPw5VUl-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-25" value="&lt;font&gt;Закрытие файла логирования&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=Consolas;" vertex="1" parent="1">
+          <mxGeometry x="70" y="884" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="MlmzNU3GaeWpQMPw5VUl-27" target="MlmzNU3GaeWpQMPw5VUl-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-27" value="&lt;font&gt;Удаление обработанного клиента из очереди&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=Consolas;" vertex="1" parent="1">
+          <mxGeometry x="70" y="728" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="MlmzNU3GaeWpQMPw5VUl-29" target="MlmzNU3GaeWpQMPw5VUl-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlmzNU3GaeWpQMPw5VUl-29" value="Бесконечная обработка поступающих запросов" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;rounded=0;strokeColor=default;align=center;verticalAlign=middle;arcSize=14;fontFamily=Consolas;fontSize=12;fontColor=default;fillColor=default;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="70" y="799" width="160" height="52" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
