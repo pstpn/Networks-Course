@@ -220,12 +220,22 @@ int main() {
     for (int i = 0; i < MAX_THREADS; ++i)
         pthread_create(&threads[i], NULL, worker_thread, NULL);
 
+    fd_set readfds;
+    FD_ZERO(&readfds);
+    FD_SET(server_fd, &readfds);
+    const int max_fd = server_fd;
+
     while (1) {
-        const int client_fd = accept(server_fd, NULL, NULL);
-        if (client_fd == -1) {
-            perror("Accept failed");
-            continue;
+        fd_set temp_set = readfds;
+        if (pselect(max_fd + 1, &temp_set, NULL, NULL, NULL, NULL) > 0) {
+            if (FD_ISSET(server_fd, &temp_set)) {
+                const int client_fd = accept(server_fd, NULL, NULL);
+                if (client_fd == -1) {
+                    perror("Accept failed");
+                    continue;
+                }
+                enqueue_task(client_fd);
+            }
         }
-        enqueue_task(client_fd);
     }
 }
