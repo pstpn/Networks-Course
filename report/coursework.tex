@@ -1,9 +1,10 @@
 \documentclass{bmstu}
+\usepackage{tocloft}
 
 \bibliography{biblio}
 
 \setlist[itemize]{label=---}
-\setlist[enumerate]{label=\arabic*)}
+\setlist[enumerate]{label=\arabic*), leftmargin=1.6\parindent}
 \usepackage{tabularx}
 \usepackage{csvsimple}
 \usepackage{multirow}
@@ -22,9 +23,13 @@
 
 \setcounter{page}{3}
 \include{essay}
-
-\maketableofcontents
-
+\cftsetindents{chapter}{\parindent}{12.5mm}
+\cftsetindents{section}{\parindent}{12.5mm}
+\cftsetindents{subsection}{\parindent}{12.5mm}
+\setlength{\cftbeforetoctitleskip}{-22pt}
+\renewcommand{\cftaftertoctitle}{\hfill}
+\renewcommand{\contentsname}{\hfill\LARGE СОДЕРЖАНИЕ\hfill}
+\tableofcontents
 \include{03-introduction}
 \include{04-analysis}
 \include{05-design}
